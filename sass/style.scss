@@ -159,18 +159,66 @@ $light_pink: #FFCFD8;
 .location_page {
   // feat .page class
 
+  .location_page {
+  // feat .page class
+
   .ceremony {
     position: relative;
     width: 100%;
     height: 50%;
     background: $pink;
+
+      .ceremony_title{
+        position: relative;
+        display: block;
+        height: 30px;
+        left: 8%;
+        top: 25px;
+      }
+      .ceremony_info{
+        position: relative;
+        display: inline-block;
+        width: 400px;
+        left: 8%;
+        top: 35px;
+      }
+      .ceremony_traffic{
+        position: relative;
+        display: inline-block;
+        width: 400px;
+        left: 30%;
+        // 他沒辦法跟左邊的時間同高度...
+      }
   }
-  .banquet {
-    position: relative;
-    width: 100%;
-    height: 50%;
-    background: white;
+    .banquet {
+      position: relative;
+      width: 100%;
+      height: 50%;
+      background: white;
+
+      .banquet_title{
+        position: relative;
+        display: block;
+        height: 30px;
+        left: 8%;
+        top: 25px;
+      }
+      .banquet_info{
+        position: relative;
+        display: inline-block;
+        width: 400px;
+        left: 8%;
+        top: 35px;
+      }
+      .banquet_traffic{
+        position: relative;
+        display: inline-block;
+        width: 400px;
+        left: 30%;
+        // 他沒辦法跟左邊的時間同高度...
+    }
   }
+}
 }
 
 .footer {
