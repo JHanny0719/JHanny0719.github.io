@@ -1,187 +1,60 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* pink: FFA0B2 */
-@font-face {
-  font-family: playball;
-  src: local("Playball"), url(Playball-Regular.ttf);
-}
-/* line 17, ../sass/style.scss */
-.page {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
+/*
+Error: Invalid CSS after "...ef6d31d81722445": expected "{", was "}"
+        on line 168 of /Users/hannywu/JHanny0719.github.io/sass/style.scss
 
-/* line 24, ../sass/style.scss */
-.welcome_page {
-  overflow-x: hidden;
-  background: linear-gradient(to top, #FFA0B2, #FFCFD8);
-}
-/* line 28, ../sass/style.scss */
-.welcome_page .jack_png {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: -63px;
-  width: 700px;
-}
-/* line 36, ../sass/style.scss */
-.welcome_page .hanny_png {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: -63px;
-  width: 700px;
-}
-/* line 44, ../sass/style.scss */
-.welcome_page .welcome {
-  position: absolute;
-  width: 100%;
-  height: 80px;
-  text-align: center;
-  top: 570px;
-  font-family: playball, Comic Sans MS;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 46px;
-  text-align: center;
-  color: #FFFFFF;
-}
-/* line 63, ../sass/style.scss */
-.welcome_page .weddingname {
-  position: absolute;
-  width: 100%;
-  height: 170px;
-  top: 625px;
-  font-family: playball, Comic Sans MS;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 79px;
-  text-align: center;
-  color: #FFFFFF;
-}
-/* line 77, ../sass/style.scss */
-.welcome_page .buttonset {
-  position: absolute;
-  width: 100%;
-  top: 845px;
-  text-align: center;
-}
-/* line 84, ../sass/style.scss */
-.welcome_page .buttonset .button {
-  display: inline-block;
-  position: relative;
-  height: 22.5px;
-  margin: 0 3%;
-}
-/* line 91, ../sass/style.scss */
-.welcome_page .buttonset .button img {
-  height: 100%;
-}
+163:     position: absolute;
+164:     // height: 100vh;
+165:     width:100vw;
+166:     // 只要設定寬度就好
+167: >>>>>>> 2e045de2d433043e9c17b37ceef6d31d81722445
+168:   }
+169: 
+170: .location_page {
+171:   // feat .page class
+172: 
+173:   .ceremony {
 
-/* line 117, ../sass/style.scss */
-.player_page {
-  background: #FFA0B2;
-}
-/* line 120, ../sass/style.scss */
-.player_page .player_icon_png {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-}
-
-/* line 131, ../sass/style.scss */
-.timeline_page {
-  background: #FFA0B2;
-}
-
-/* line 136, ../sass/style.scss */
-.huge_photo_page {
-  background: white;
-}
-/* line 139, ../sass/style.scss */
-.huge_photo_page .huge_photo {
-  position: absolute;
-  width: 100vw;
-}
-
-/* line 150, ../sass/style.scss */
-.location_page .ceremony {
-  position: relative;
-  width: 100%;
-  height: 50%;
-  background: #FFA0B2;
-}
-/* line 156, ../sass/style.scss */
-.location_page .ceremony .ceremony_title {
-  position: relative;
-  display: block;
-  height: 30px;
-  left: 8%;
-  top: 25px;
-}
-/* line 163, ../sass/style.scss */
-.location_page .ceremony .ceremony_info {
-  position: relative;
-  display: inline-block;
-  width: 400px;
-  left: 8%;
-  top: 35px;
-}
-/* line 170, ../sass/style.scss */
-.location_page .ceremony .ceremony_traffic {
-  position: relative;
-  display: inline-block;
-  width: 400px;
-  left: 30%;
-}
-/* line 178, ../sass/style.scss */
-.location_page .banquet {
-  position: relative;
-  width: 100%;
-  height: 50%;
-  background: white;
-}
-/* line 184, ../sass/style.scss */
-.location_page .banquet .banquet_title {
-  position: relative;
-  display: block;
-  height: 30px;
-  left: 8%;
-  top: 25px;
-}
-/* line 191, ../sass/style.scss */
-.location_page .banquet .banquet_info {
-  position: relative;
-  display: inline-block;
-  width: 400px;
-  left: 8%;
-  top: 35px;
-}
-/* line 198, ../sass/style.scss */
-.location_page .banquet .banquet_traffic {
-  position: relative;
-  display: inline-block;
-  width: 400px;
-  left: 30%;
-}
-
-/* line 208, ../sass/style.scss */
-.footer {
-  width: 100vw;
-  height: 300px;
-  background: #FFA0B2;
-}
-/* line 216, ../sass/style.scss */
-.footer .copyright {
-  position: relative;
-  height: 20px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 240px;
-}
+Backtrace:
+/Users/hannywu/JHanny0719.github.io/sass/style.scss:168
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/hannywu/.rvm/gems/ruby-2.7.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ef6d31d81722445\": expected \"{\", was \"}\"\A         on line 168 of /Users/hannywu/JHanny0719.github.io/sass/style.scss\A \A 163:     position: absolute;\A 164:     // height: 100vh;\A 165:     width:100vw;\A 166:     // 只要設定寬度就好\A 167: >>>>>>> 2e045de2d433043e9c17b37ceef6d31d81722445\A 168:   }\A 169: \A 170: .location_page {\A 171:   // feat .page class\A 172: \A 173:   .ceremony {"; }
