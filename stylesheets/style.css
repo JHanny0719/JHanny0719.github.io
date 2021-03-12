@@ -3,108 +3,90 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* pink: FFA0B2 */
-/* line 11, ../sass/style.scss */
+@font-face {
+  font-family: playball;
+  src: local("Playball"), url(Playball-Regular.ttf);
+}
+/* line 17, ../sass/style.scss */
 .page {
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .welcome_page {
+  overflow-x: hidden;
   background: linear-gradient(to top, #FFA0B2, #FFCFD8);
 }
-/* line 21, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .welcome_page .jack_png {
   position: absolute;
-  left: 27.4%;
+  left: 50%;
+  transform: translate(-50%, 0);
   top: -63px;
   width: 700px;
 }
-/* line 27, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .welcome_page .hanny_png {
   position: absolute;
-  left: 27.5%;
+  left: 50%;
+  transform: translate(-50%, 0);
   top: -63px;
   width: 700px;
 }
-/* line 34, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .welcome_page .welcome {
   position: absolute;
-  width: 450px;
+  width: 100%;
   height: 80px;
-  left: 34.5%;
+  text-align: center;
   top: 570px;
-  font-family: Comic Sans MS;
+  font-family: playball, Comic Sans MS;
   font-style: normal;
   font-weight: normal;
   font-size: 46px;
   text-align: center;
   color: #FFFFFF;
 }
-/* line 49, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .welcome_page .weddingname {
   position: absolute;
-  width: 618px;
+  width: 100%;
   height: 170px;
-  left: 411px;
   top: 625px;
-  font-family: Comic Sans MS;
+  font-family: playball, Comic Sans MS;
   font-style: normal;
   font-weight: normal;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 79px;
   text-align: center;
   color: #FFFFFF;
 }
-/* line 64, ../sass/style.scss */
-.welcome_page .button_ourstory {
+/* line 77, ../sass/style.scss */
+.welcome_page .buttonset {
   position: absolute;
-  width: 250px;
-  height: 35px;
-  left: 280px;
-  top: 800px;
-  font-family: Comic Sans MS;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
+  width: 100%;
+  top: 845px;
   text-align: center;
-  color: #FFFFFF;
 }
-/* line 78, ../sass/style.scss */
-.welcome_page .button_ceremony {
-  position: absolute;
-  width: 250px;
-  height: 35px;
-  left: 585px;
-  top: 800px;
-  font-family: Comic Sans MS;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
-  text-align: center;
-  color: #FFFFFF;
+/* line 84, ../sass/style.scss */
+.welcome_page .buttonset .button {
+  display: inline-block;
+  position: relative;
+  height: 22.5px;
+  margin: 0 3%;
 }
-/* line 92, ../sass/style.scss */
-.welcome_page .button_banquet {
-  position: absolute;
-  width: 250px;
-  height: 35px;
-  left: 890px;
-  top: 800px;
-  font-family: Comic Sans MS;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
-  text-align: center;
-  color: #FFFFFF;
+/* line 91, ../sass/style.scss */
+.welcome_page .buttonset .button img {
+  height: 100%;
 }
 
-/* line 108, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .player_page {
   background: #FFA0B2;
 }
-/* line 111, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .player_page .player_icon_png {
   position: relative;
   top: 50%;
@@ -113,30 +95,29 @@
   width: 300px;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .timeline_page {
   background: #FFA0B2;
 }
 
-/* line 127, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .huge_photo_page {
   background: white;
 }
-/* line 130, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .huge_photo_page .huge_photo {
   position: absolute;
-  height: 100vh;
   width: 100vw;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .location_page .ceremony {
   position: relative;
   width: 100%;
   height: 50%;
   background: #FFA0B2;
 }
-/* line 147, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .location_page .banquet {
   position: relative;
   width: 100%;
@@ -144,7 +125,7 @@
   background: white;
 }
 
-/* line 155, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .footer {
   width: 100vw;
   height: 350px;

@@ -23,25 +23,33 @@ $light_pink: #FFCFD8;
 
 .welcome_page {
   // feat .page class
+  overflow-x: hidden;
   background: linear-gradient(to top, $pink, $light_pink);
   .jack_png{
     position: absolute;
-    left: 27.4%;
+    // left: 27.4%;
+    left:50%;
+    transform: translate(-50%,0);
     top: -63px;
     width:700px;
   }
   .hanny_png{
     position: absolute;
-    left: 27.5%;
+    left:50%;
+    transform: translate(-50%,0);
     top: -63px;
     width: 700px;
     // 圖片出不來？？幹 -> Pa教說要用absolute，問抽為什麼我們要用relative??
   }
   .welcome{
     position: absolute;
-    width: 450px;
+    // width: 450px;
+    // width: auto; 預設是AUTO
+    width: 100%;
     height: 80px;
-    left: 34.5%;
+    // left: 34.5%;
+    // left: 50%;
+    text-align: center;
     top: 570px;
     font-family: playball, Comic Sans MS;
     // 沒有Playball這個字體
@@ -54,60 +62,55 @@ $light_pink: #FFCFD8;
   }
   .weddingname{
     position: absolute;
-    width: 618px;
+    width: 100%;
     height: 170px;
-    left: 411px;
     top: 625px;
     font-family: playball, Comic Sans MS;
     // 沒有Playball這個字體
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 79px;
     text-align: center;
     color: #FFFFFF;
   }
-  .button_ourstory{
+  .buttonset{
     position: absolute;
-    width: 250px;
-    height: 35px;
-    left: 280px;
-    top: 800px;
-    font-family: Comic Sans MS;
-    // 沒有Noto Sans TC
-    font-style: normal;
-    font-weight: 500;
-    font-size: 27px;
+    width: 100%;
+    top: 845px;
     text-align: center;
-    color: #FFFFFF;
-  }
-  .button_ceremony{
-    position: absolute;
-    width: 250px;
-    height: 35px;
-    left: 585px;
-    top: 800px;
-    font-family: Comic Sans MS;
-    // 沒有Noto Sans TC
-    font-style: normal;
-    font-weight: 500;
-    font-size: 27px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .button_banquet{
-    position: absolute;
-    width: 250px;
-    height: 35px;
-    left: 890px;
-    top: 800px;
-    font-family: Comic Sans MS;
-    // 沒有Noto Sans TC
-    font-style: normal;
-    font-weight: 500;
-    font-size: 27px;
-    text-align: center;
-    color: #FFFFFF;
+    // 這裡的top是對應誰的啊幹？為什麼不是對整個welcome_page？
+
+    .button {
+      display: inline-block;
+      position: relative;
+      // width: 125px;
+      height: 22.5px;
+      margin: 0 3%;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    // .button_ourstory{
+    //   position: relative;
+    //   width: 250px;
+    //   height: 35px;
+    //   left: 25%;
+    // }
+    // .button_ceremony{
+    //   position: relative;
+    //   width: 250px;
+    //   height: 35px;
+    //   left: 50%;
+    // }
+    // .button_banquet{
+    //   position: relative;
+    //   width: 250px;
+    //   height: 35px;
+    //   left: 75%;
+    // }
   }
 }
 
@@ -135,7 +138,7 @@ $light_pink: #FFCFD8;
   background: white;
   .huge_photo{
     position: absolute;
-    height: 100vh;
+    // height: 100vh;
     width:100vw;
     // 網頁上看起來有點怪，媽ㄉ
   }
