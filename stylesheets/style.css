@@ -3,53 +3,57 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* pink: FFA0B2 */
-/* line 11, ../sass/style.scss */
+@font-face {
+  font-family: playball;
+  src: local("Playball"), url(Playball-Regular.ttf);
+}
+/* line 17, ../sass/style.scss */
 .page {
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .welcome_page {
   background: linear-gradient(to top, #FFA0B2, #FFCFD8);
 }
-/* line 21, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .welcome_page .jack_png {
   position: absolute;
   left: 27.4%;
   top: -63px;
   width: 700px;
 }
-/* line 27, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .welcome_page .hanny_png {
   position: absolute;
   left: 27.5%;
   top: -63px;
   width: 700px;
 }
-/* line 34, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .welcome_page .welcome {
   position: absolute;
   width: 450px;
   height: 80px;
   left: 34.5%;
   top: 570px;
-  font-family: Comic Sans MS;
+  font-family: playball, Comic Sans MS;
   font-style: normal;
   font-weight: normal;
   font-size: 46px;
   text-align: center;
   color: #FFFFFF;
 }
-/* line 49, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .welcome_page .weddingname {
   position: absolute;
   width: 618px;
   height: 170px;
   left: 411px;
   top: 625px;
-  font-family: Comic Sans MS;
+  font-family: playball, Comic Sans MS;
   font-style: normal;
   font-weight: normal;
   font-size: 70px;
@@ -57,7 +61,7 @@
   text-align: center;
   color: #FFFFFF;
 }
-/* line 64, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .welcome_page .button_ourstory {
   position: absolute;
   width: 250px;
@@ -71,7 +75,7 @@
   text-align: center;
   color: #FFFFFF;
 }
-/* line 78, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .welcome_page .button_ceremony {
   position: absolute;
   width: 250px;
@@ -85,7 +89,7 @@
   text-align: center;
   color: #FFFFFF;
 }
-/* line 92, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 .welcome_page .button_banquet {
   position: absolute;
   width: 250px;
@@ -100,11 +104,11 @@
   color: #FFFFFF;
 }
 
-/* line 108, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .player_page {
   background: #FFA0B2;
 }
-/* line 111, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .player_page .player_icon_png {
   position: relative;
   top: 50%;
@@ -113,30 +117,30 @@
   width: 300px;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .timeline_page {
   background: #FFA0B2;
 }
 
-/* line 127, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .huge_photo_page {
   background: white;
 }
-/* line 130, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .huge_photo_page .huge_photo {
   position: absolute;
   height: 100vh;
   width: 100vw;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .location_page .ceremony {
   position: relative;
   width: 100%;
   height: 50%;
   background: #FFA0B2;
 }
-/* line 147, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .location_page .banquet {
   position: relative;
   width: 100%;
@@ -144,7 +148,7 @@
   background: white;
 }
 
-/* line 155, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .footer {
   width: 100vw;
   height: 350px;
