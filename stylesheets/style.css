@@ -25,7 +25,7 @@
   left: 50%;
   transform: translate(-50%, 0);
   top: -63px;
-  width: 700px;
+  width: 600px;
 }
 /* line 36, ../sass/style.scss */
 .welcome_page .hanny_png {
@@ -33,7 +33,7 @@
   left: 50%;
   transform: translate(-50%, 0);
   top: -63px;
-  width: 700px;
+  width: 600px;
 }
 /* line 44, ../sass/style.scss */
 .welcome_page .welcome {
@@ -41,83 +41,82 @@
   width: 100%;
   height: 80px;
   text-align: center;
-  top: 570px;
+  top: 480px;
   font-family: playball, Comic Sans MS;
   font-style: normal;
   font-weight: normal;
-  font-size: 46px;
+  font-size: 39px;
   text-align: center;
   color: #FFFFFF;
 }
 /* line 63, ../sass/style.scss */
-.welcome_page .weddingname {
+.welcome_page .Jack_and_Hanny {
   position: absolute;
   width: 100%;
   height: 170px;
-  top: 625px;
+  top: 530px;
   font-family: playball, Comic Sans MS;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 79px;
+  font-size: 73px;
   text-align: center;
   color: #FFFFFF;
 }
-/* line 77, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
+.welcome_page .Wedding_word {
+  position: absolute;
+  width: 100%;
+  height: 170px;
+  top: 608px;
+  font-family: playball, Comic Sans MS;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 39px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/* line 89, ../sass/style.scss */
 .welcome_page .buttonset {
   position: absolute;
   width: 100%;
-  top: 845px;
+  top: 705px;
   text-align: center;
 }
-/* line 84, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .welcome_page .buttonset .button {
   display: inline-block;
   position: relative;
   height: 22.5px;
   margin: 0 3%;
 }
-/* line 91, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .welcome_page .buttonset .button img {
   height: 100%;
 }
 
-/* line 117, ../sass/style.scss */
-.player_page {
-  background: #FFA0B2;
-}
-/* line 120, ../sass/style.scss */
-.player_page .player_icon_png {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-}
-
-/* line 131, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .timeline_page {
   background: #FFA0B2;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .huge_photo_page {
   background: white;
 }
-/* line 139, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .huge_photo_page .huge_photo {
   position: absolute;
   width: 100vw;
 }
 
-/* line 150, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .location_page .ceremony {
   position: relative;
   width: 100%;
   height: 50%;
   background: #FFA0B2;
 }
-/* line 156, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .location_page .banquet {
   position: relative;
   width: 100%;
@@ -125,9 +124,9 @@
   background: white;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .footer {
   width: 100vw;
-  height: 350px;
-  background: grey;
+  height: 300px;
+  background: #FFA0B2;
 }

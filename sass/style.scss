@@ -31,14 +31,14 @@ $light_pink: #FFCFD8;
     left:50%;
     transform: translate(-50%,0);
     top: -63px;
-    width:700px;
+    width:600px;
   }
   .hanny_png{
     position: absolute;
     left:50%;
     transform: translate(-50%,0);
     top: -63px;
-    width: 700px;
+    width: 600px;
     // 圖片出不來？？幹 -> Pa教說要用absolute，問抽為什麼我們要用relative??
   }
   .welcome{
@@ -50,34 +50,46 @@ $light_pink: #FFCFD8;
     // left: 34.5%;
     // left: 50%;
     text-align: center;
-    top: 570px;
+    top: 480px;
     font-family: playball, Comic Sans MS;
     // 沒有Playball這個字體
     font-style: normal;
     font-weight: normal;
-    font-size: 46px;
+    font-size: 39px;
     // 為什麼超出40px 就會跳行？？？
     text-align: center;
     color: #FFFFFF;
   }
-  .weddingname{
+  .Jack_and_Hanny{
     position: absolute;
     width: 100%;
     height: 170px;
-    top: 625px;
+    top: 530px;
     font-family: playball, Comic Sans MS;
     // 沒有Playball這個字體
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
-    line-height: 79px;
+    font-size: 73px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .Wedding_word{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    top: 608px;
+    font-family: playball, Comic Sans MS;
+    // 沒有Playball這個字體
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
     text-align: center;
     color: #FFFFFF;
   }
   .buttonset{
     position: absolute;
     width: 100%;
-    top: 845px;
+    top: 705px;
     text-align: center;
     // 這裡的top是對應誰的啊幹？為什麼不是對整個welcome_page？
 
@@ -114,19 +126,19 @@ $light_pink: #FFCFD8;
   }
 }
 
-.player_page {
-  // feat .page class
-  background: $pink;
-  .player_icon_png{
-    position: relative;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    // transform 是對div做微調。
-    width:300px;
-  }
-
-}
+// .player_page {
+//   // feat .page class
+//   background: $pink;
+//   .player_icon_png{
+//     position: relative;
+//     top:50%;
+//     left:50%;
+//     transform: translate(-50%, -50%);
+//     // transform 是對div做微調。
+//     width:300px;
+//   }
+//
+// }
 
 .timeline_page {
   // feat .page class
@@ -140,7 +152,7 @@ $light_pink: #FFCFD8;
     position: absolute;
     // height: 100vh;
     width:100vw;
-    // 網頁上看起來有點怪，媽ㄉ
+    // 只要設定寬度就好
   }
 }
 
@@ -163,6 +175,6 @@ $light_pink: #FFCFD8;
 
 .footer {
   width: 100vw;
-  height: 350px;
-  background: grey;
+  height: 300px;
+  background: $pink;
 }
