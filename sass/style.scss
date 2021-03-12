@@ -19,17 +19,89 @@ $light_pink: #FFCFD8;
   // feat .page class
   background: linear-gradient(to top, $pink, $light_pink);
   .jack_png{
-    position: relative;
-    top:13%;
-    left:15%;
+    position: absolute;
+    left: 27.4%;
+    top: -63px;
     width:700px;
   }
   .hanny_png{
-    position: relative;
-    top:25%;
-    left:30%;
+    position: absolute;
+    left: 27.5%;
+    top: -63px;
     width: 700px;
-    // 圖片出不來？？幹
+    // 圖片出不來？？幹 -> Pa教說要用absolute，問抽為什麼我們要用relative??
+  }
+  .welcome{
+    position: absolute;
+    width: 450px;
+    height: 80px;
+    left: 34.5%;
+    top: 570px;
+    font-family: Comic Sans MS;
+    // 沒有Playball這個字體
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    // 為什麼超出40px 就會跳行？？？
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .weddingname{
+    position: absolute;
+    width: 618px;
+    height: 170px;
+    left: 411px;
+    top: 625px;
+    font-family: Comic Sans MS;
+    // 沒有Playball這個字體
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .button_ourstory{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    left: 280px;
+    top: 800px;
+    font-family: Comic Sans MS;
+    // 沒有Noto Sans TC
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .button_ceremony{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    left: 585px;
+    top: 800px;
+    font-family: Comic Sans MS;
+    // 沒有Noto Sans TC
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .button_banquet{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    left: 890px;
+    top: 800px;
+    font-family: Comic Sans MS;
+    // 沒有Noto Sans TC
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+    color: #FFFFFF;
   }
 }
 
@@ -40,6 +112,8 @@ $light_pink: #FFCFD8;
     position: relative;
     top:50%;
     left:50%;
+    transform: translate(-50%, -50%);
+    // transform 是對div做微調。
     width:300px;
   }
 
@@ -53,6 +127,12 @@ $light_pink: #FFCFD8;
 .huge_photo_page {
   // feat .page class
   background: white;
+  .huge_photo{
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    // 網頁上看起來有點怪，媽ㄉ
+  }
 }
 
 .location_page {
@@ -74,6 +154,6 @@ $light_pink: #FFCFD8;
 
 .footer {
   width: 100vw;
-  height: 150px;
+  height: 350px;
   background: grey;
 }
