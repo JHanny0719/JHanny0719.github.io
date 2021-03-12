@@ -8,6 +8,12 @@
 $pink: #FFA0B2;
 $light_pink: #FFCFD8;
 
+@font-face {
+  font-family: playball; // 自己命名
+  src: local("Playball"),
+  url(Playball-Regular.ttf);
+}
+
 .page {
   // whole page
   width: 100vw;
@@ -37,7 +43,7 @@ $light_pink: #FFCFD8;
     height: 80px;
     left: 34.5%;
     top: 570px;
-    font-family: Comic Sans MS;
+    font-family: playball, Comic Sans MS;
     // 沒有Playball這個字體
     font-style: normal;
     font-weight: normal;
@@ -52,7 +58,7 @@ $light_pink: #FFCFD8;
     height: 170px;
     left: 411px;
     top: 625px;
-    font-family: Comic Sans MS;
+    font-family: playball, Comic Sans MS;
     // 沒有Playball這個字體
     font-style: normal;
     font-weight: normal;
