@@ -16,28 +16,31 @@
 
 /* line 24, ../sass/style.scss */
 .welcome_page {
+  overflow-x: hidden;
   background: linear-gradient(to top, #FFA0B2, #FFCFD8);
 }
-/* line 27, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .welcome_page .jack_png {
   position: absolute;
-  left: 27.4%;
+  left: 50%;
+  transform: translate(-50%, 0);
   top: -63px;
   width: 700px;
 }
-/* line 33, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .welcome_page .hanny_png {
   position: absolute;
-  left: 27.5%;
+  left: 50%;
+  transform: translate(-50%, 0);
   top: -63px;
   width: 700px;
 }
-/* line 40, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .welcome_page .welcome {
   position: absolute;
-  width: 450px;
+  width: 100%;
   height: 80px;
-  left: 34.5%;
+  text-align: center;
   top: 570px;
   font-family: playball, Comic Sans MS;
   font-style: normal;
@@ -46,69 +49,44 @@
   text-align: center;
   color: #FFFFFF;
 }
-/* line 55, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .welcome_page .weddingname {
   position: absolute;
-  width: 618px;
+  width: 100%;
   height: 170px;
-  left: 411px;
   top: 625px;
   font-family: playball, Comic Sans MS;
   font-style: normal;
   font-weight: normal;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 79px;
   text-align: center;
   color: #FFFFFF;
 }
-/* line 70, ../sass/style.scss */
-.welcome_page .button_ourstory {
+/* line 77, ../sass/style.scss */
+.welcome_page .buttonset {
   position: absolute;
-  width: 250px;
-  height: 35px;
-  left: 280px;
-  top: 800px;
-  font-family: Comic Sans MS;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
+  width: 100%;
+  top: 845px;
   text-align: center;
-  color: #FFFFFF;
 }
 /* line 84, ../sass/style.scss */
-.welcome_page .button_ceremony {
-  position: absolute;
-  width: 250px;
-  height: 35px;
-  left: 585px;
-  top: 800px;
-  font-family: Comic Sans MS;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
-  text-align: center;
-  color: #FFFFFF;
+.welcome_page .buttonset .button {
+  display: inline-block;
+  position: relative;
+  height: 22.5px;
+  margin: 0 3%;
 }
-/* line 98, ../sass/style.scss */
-.welcome_page .button_banquet {
-  position: absolute;
-  width: 250px;
-  height: 35px;
-  left: 890px;
-  top: 800px;
-  font-family: Comic Sans MS;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
-  text-align: center;
-  color: #FFFFFF;
+/* line 91, ../sass/style.scss */
+.welcome_page .buttonset .button img {
+  height: 100%;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .player_page {
   background: #FFA0B2;
 }
-/* line 117, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .player_page .player_icon_png {
   position: relative;
   top: 50%;
@@ -117,40 +95,93 @@
   width: 300px;
 }
 
-/* line 128, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .timeline_page {
   background: #FFA0B2;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .huge_photo_page {
   background: white;
 }
-/* line 136, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .huge_photo_page .huge_photo {
   position: absolute;
-  height: 100vh;
   width: 100vw;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .location_page .ceremony {
   position: relative;
   width: 100%;
   height: 50%;
   background: #FFA0B2;
 }
-/* line 153, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
+.location_page .ceremony .ceremony_title {
+  position: relative;
+  display: block;
+  height: 30px;
+  left: 8%;
+  top: 25px;
+}
+/* line 163, ../sass/style.scss */
+.location_page .ceremony .ceremony_info {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  left: 8%;
+  top: 35px;
+}
+/* line 170, ../sass/style.scss */
+.location_page .ceremony .ceremony_traffic {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  left: 30%;
+}
+/* line 178, ../sass/style.scss */
 .location_page .banquet {
   position: relative;
   width: 100%;
   height: 50%;
   background: white;
 }
+/* line 184, ../sass/style.scss */
+.location_page .banquet .banquet_title {
+  position: relative;
+  display: block;
+  height: 30px;
+  left: 8%;
+  top: 25px;
+}
+/* line 191, ../sass/style.scss */
+.location_page .banquet .banquet_info {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  left: 8%;
+  top: 35px;
+}
+/* line 198, ../sass/style.scss */
+.location_page .banquet .banquet_traffic {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  left: 30%;
+}
 
-/* line 161, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .footer {
   width: 100vw;
-  height: 350px;
-  background: grey;
+  height: 300px;
+  background: #FFA0B2;
+}
+/* line 216, ../sass/style.scss */
+.footer .copyright {
+  position: relative;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 240px;
 }
