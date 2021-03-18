@@ -148,18 +148,16 @@ $light_pink: #FFCFD8;
 .huge_photo_page {
   // feat .page class
   background: white;
+
   .huge_photo{
     position: absolute;
     // height: 100vh;
     width:100vw;
-    // 只要設定寬度就好
+    // 網頁上看起來有點怪，媽ㄉ
   }
 }
 
 .location_page {
-  // feat .page class
-
-  .location_page {
   // feat .page class
 
   .ceremony {
@@ -190,6 +188,7 @@ $light_pink: #FFCFD8;
         // 他沒辦法跟左邊的時間同高度...
       }
   }
+
     .banquet {
       position: relative;
       width: 100%;
@@ -219,10 +218,19 @@ $light_pink: #FFCFD8;
     }
   }
 }
-}
+
 
 .footer {
   width: 100vw;
   height: 300px;
   background: $pink;
+
+  .copyright{
+    position: relative;
+    height: 20px;
+    left:50%;
+    transform: translate(-50%,0);
+    top: 240px;
+
+  }
 }
