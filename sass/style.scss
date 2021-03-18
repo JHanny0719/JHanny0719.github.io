@@ -23,20 +23,23 @@ $light_pink: #FFCFD8;
 
 .welcome_page {
   // feat .page class
-  overflow-x: hidden;
+  overflow: hidden;
   background: linear-gradient(to top, $pink, $light_pink);
+
   .jack_png{
     position: absolute;
     // left: 27.4%;
     left:50%;
-    transform: translate(-50%,0);
+    // transform: translate(-50%,0);
+    margin-left: -300px;
     top: -63px;
     width:600px;
   }
   .hanny_png{
     position: absolute;
     left:50%;
-    transform: translate(-50%,0);
+    // transform: translate(-50%,0);
+    margin-left: -300px;
     top: -63px;
     width: 600px;
     // 圖片出不來？？幹 -> Pa教說要用absolute，問抽為什麼我們要用relative??
@@ -59,6 +62,8 @@ $light_pink: #FFCFD8;
     // 為什麼超出40px 就會跳行？？？
     text-align: center;
     color: #FFFFFF;
+
+    animation-delay: 0.5s;
   }
   .Jack_and_Hanny{
     position: absolute;
@@ -72,6 +77,8 @@ $light_pink: #FFCFD8;
     font-size: 73px;
     text-align: center;
     color: #FFFFFF;
+
+    animation-delay: 1s;
   }
   .Wedding_word{
     position: absolute;
@@ -85,6 +92,8 @@ $light_pink: #FFCFD8;
     font-size: 39px;
     text-align: center;
     color: #FFFFFF;
+
+    animation-delay: 1.5s;
   }
   .buttonset{
     position: absolute;
@@ -92,6 +101,8 @@ $light_pink: #FFCFD8;
     top: 705px;
     text-align: center;
     // 這裡的top是對應誰的啊幹？為什麼不是對整個welcome_page？
+
+    animation-delay: 2s;
 
     .button {
       display: inline-block;
@@ -147,8 +158,8 @@ $light_pink: #FFCFD8;
 
   .timeline {
     position: absolute;
-    left: 7vw;
-    top: 0;
+    left: 9vw;
+    top: 6vh;
 
     .line {
       position: absolute;
@@ -159,9 +170,27 @@ $light_pink: #FFCFD8;
     }
 
     .time_section {
+      position: relative;
       margin-bottom: 8vh;
       margin-left: -4px;
       cursor: pointer;
+
+      &:hover {
+        .polygon {
+          display: block;
+        }
+      }
+
+      .polygon {
+        position: absolute;
+        top: 5px;
+        left: -50px;
+        display: none;
+      }
+
+      .active {
+        display: block;
+      }
 
       .dot {
         display: inline-block;
@@ -187,14 +216,21 @@ $light_pink: #FFCFD8;
 
   .image_window {
     position: absolute;
-    top: 6vh;
+    top: 9vh;
     right: 13vw;
 
+
     img {
+      display: none;
       position: absolute;
       width: 50vw;
       margin-top: -1.5vw;
       margin-left: -3vw;
+      animation-duration: 0.8s;
+    }
+
+    .default {
+      display: block;
     }
 
     .white_bg {
@@ -281,6 +317,9 @@ $light_pink: #FFCFD8;
   }
 }
 
+.mobile {
+  display: none;
+}
 
 .footer {
   position: relative;
@@ -308,10 +347,104 @@ $light_pink: #FFCFD8;
 
   .copyright{
     position: relative;
-    height: 20px;
+    height: 18px;
     left:50%;
     transform: translate(-50%,0);
     top: 240px;
 
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .welcome_page {
+    .jack_png, .hanny_png {
+      width: 450px;
+      left: 53%;
+      top: 0px;
+      margin-left: -225px;
+    }
+
+
+    .welcome {
+      top: 445px;
+    }
+
+    .Jack_and_Hanny {
+      top: 495px;
+      font-size: 48px;
+    }
+
+    .Wedding_word {
+      top: 557px;
+    }
+
+    .buttonset {
+      .button {
+        height: 19.5px;
+        margin: 0 2.5%;
+      }
+    }
+  }
+
+  .timeline_page {
+    .time_section {
+      display: none;
+    }
+
+    .image_window {
+      width: 100vw;
+      right: 0;
+      top: 20vh;
+
+      .window {
+        display: none;
+      }
+
+      .default {
+        display: block;
+        img {
+          display: block;
+        }
+      }
+
+      img {
+        margin-left: 0;
+        width: 100%;
+        // margin-top:
+      }
+
+      .white_bg {
+        width: 100vw;
+        margin-top: 15vh;
+      }
+
+      .title {
+        position: absolute;
+        top: 36vh;
+        left: 21vw;
+        font-size: 30px;
+        line-height: 40px;
+        color: white;
+
+        .text {
+          font-size: 18px;
+          margin-left: 13vw;
+        }
+      }
+    }
+  }
+
+	.location_page {
+    display: none;
   }
 }
