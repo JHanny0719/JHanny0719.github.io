@@ -147,7 +147,7 @@
   display: block;
   height: 38px;
   left: 8%;
-  top: 20px;
+  top: 18px;
 }
 /* line 197, ../sass/style.scss */
 .location_page .ceremony .ceremony_info {
@@ -178,7 +178,7 @@
   display: block;
   height: 38px;
   left: 8%;
-  top: 33px;
+  top: 26px;
 }
 /* line 226, ../sass/style.scss */
 .location_page .banquet .banquet_info {
@@ -194,7 +194,7 @@
   display: inline-block;
   width: 400px;
   left: 30%;
-  top: -33.5%;
+  top: -30%;
 }
 
 /* line 244, ../sass/style.scss */
