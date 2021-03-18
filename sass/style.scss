@@ -143,6 +143,68 @@ $light_pink: #FFCFD8;
 .timeline_page {
   // feat .page class
   background: $pink;
+  font-family: Noto Sans TC;;
+
+  .timeline {
+    position: absolute;
+    left: 7vw;
+    top: 0;
+
+    .line {
+      position: absolute;
+      top: 12px;
+      width: 2px;
+      height: 100vh;
+      background: white;
+    }
+
+    .time_section {
+      margin-bottom: 8vh;
+      margin-left: -4px;
+      cursor: pointer;
+
+      .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: white;
+        margin-right: 20px;
+      }
+      .title {
+        display: inline-block;
+        color: white;
+        font-size: 24px;
+        margin-right: 5px;
+
+        .text {
+          display: inline-block;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .image_window {
+    position: absolute;
+    top: 6vh;
+    right: 13vw;
+
+    img {
+      position: absolute;
+      width: 50vw;
+      margin-top: -1.5vw;
+      margin-left: -3vw;
+    }
+
+    .white_bg {
+      width: 50vw;
+      height: 30vw;
+      border-radius: 40px;
+      // background: linear-gradient(to right bottom, transparent, white);
+      background: linear-gradient(302.89deg, #FFFFFF 23%, rgba(255, 255, 255, 0) 62.59%);
+    }
+  }
 }
 
 .huge_photo_page {
