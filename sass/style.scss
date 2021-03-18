@@ -221,9 +221,28 @@ $light_pink: #FFCFD8;
 
 
 .footer {
+  position: relative;
   width: 100vw;
   height: 300px;
   background: $pink;
+
+  .social_buttonset{
+    position: absolute;
+    width: 100%;
+    top: 210px;
+    text-align: center;
+
+
+    .button{
+      display: inline-block;
+      width: 36px;
+
+      .social_button{
+        width: 100%;
+      }
+    }
+
+  }
 
   .copyright{
     position: relative;

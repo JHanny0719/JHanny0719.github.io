@@ -172,11 +172,28 @@
 
 /* line 223, ../sass/style.scss */
 .footer {
+  position: relative;
   width: 100vw;
   height: 300px;
   background: #FFA0B2;
 }
-/* line 228, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
+.footer .social_buttonset {
+  position: absolute;
+  width: 100%;
+  top: 210px;
+  text-align: center;
+}
+/* line 236, ../sass/style.scss */
+.footer .social_buttonset .button {
+  display: inline-block;
+  width: 36px;
+}
+/* line 240, ../sass/style.scss */
+.footer .social_buttonset .button .social_button {
+  width: 100%;
+}
+/* line 247, ../sass/style.scss */
 .footer .copyright {
   position: relative;
   height: 20px;
