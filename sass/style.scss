@@ -24,6 +24,7 @@ $light_pink: #FFCFD8;
 .welcome_page {
   // feat .page class
   overflow-x: hidden;
+  overflow-y: hidden;
   background: linear-gradient(to top, $pink, $light_pink);
   .jack_png{
     position: absolute;
@@ -97,8 +98,8 @@ $light_pink: #FFCFD8;
       display: inline-block;
       position: relative;
       // width: 125px;
-      height: 22.5px;
-      margin: 0 3%;
+      height: 18px;
+      margin: 0 5.5%;
 
       img {
         height: 100%;
@@ -147,18 +148,38 @@ $light_pink: #FFCFD8;
 
 .huge_photo_page {
   // feat .page class
-  background: white;
+  position: relative;
+  width: 100%;
+  background:#FFA0B2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  .handwriting_1{
+    position: absolute;
+    left: 6%;
+    top: 6%;
+    width: 50%;
+  }
+
+  .handwriting_2{
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    width: 60%;
+  }
 
   .huge_photo{
-    position: absolute;
-    // height: 100vh;
-    width:100vw;
-    // 網頁上看起來有點怪，媽ㄉ
+    position: relative;
+    height: 150%;
+    top: -280px;
+    left: 30%;
+    
   }
 }
 
 .location_page {
   // feat .page class
+  position: relative;
 
   .ceremony {
     position: relative;
@@ -169,23 +190,23 @@ $light_pink: #FFCFD8;
       .ceremony_title{
         position: relative;
         display: block;
-        height: 30px;
+        height: 38px;
         left: 8%;
-        top: 25px;
+        top: 20px;
       }
       .ceremony_info{
         position: relative;
         display: inline-block;
         width: 400px;
         left: 8%;
-        top: 35px;
+        top: 30px;
       }
       .ceremony_traffic{
         position: relative;
         display: inline-block;
         width: 400px;
         left: 30%;
-        // 他沒辦法跟左邊的時間同高度...
+        top:-50.53%;
       }
   }
 
@@ -198,23 +219,23 @@ $light_pink: #FFCFD8;
       .banquet_title{
         position: relative;
         display: block;
-        height: 30px;
+        height: 38px;
         left: 8%;
-        top: 25px;
+        top: 33px;
       }
       .banquet_info{
         position: relative;
         display: inline-block;
         width: 400px;
         left: 8%;
-        top: 35px;
+        top: 44px;
       }
       .banquet_traffic{
         position: relative;
         display: inline-block;
         width: 400px;
         left: 30%;
-        // 他沒辦法跟左邊的時間同高度...
+        top:-33.5%;
     }
   }
 }
