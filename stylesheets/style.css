@@ -17,9 +17,10 @@
 /* line 24, ../sass/style.scss */
 .welcome_page {
   overflow-x: hidden;
+  overflow-y: hidden;
   background: linear-gradient(to top, #FFA0B2, #FFCFD8);
 }
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .welcome_page .jack_png {
   position: absolute;
   left: 50%;
@@ -27,7 +28,7 @@
   top: -63px;
   width: 600px;
 }
-/* line 36, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .welcome_page .hanny_png {
   position: absolute;
   left: 50%;
@@ -35,7 +36,7 @@
   top: -63px;
   width: 600px;
 }
-/* line 44, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .welcome_page .welcome {
   position: absolute;
   width: 100%;
@@ -49,7 +50,7 @@
   text-align: center;
   color: #FFFFFF;
 }
-/* line 63, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .welcome_page .Jack_and_Hanny {
   position: absolute;
   width: 100%;
@@ -62,7 +63,7 @@
   text-align: center;
   color: #FFFFFF;
 }
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .welcome_page .Wedding_word {
   position: absolute;
   width: 100%;
@@ -75,125 +76,151 @@
   text-align: center;
   color: #FFFFFF;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .welcome_page .buttonset {
   position: absolute;
   width: 100%;
   top: 705px;
   text-align: center;
 }
-/* line 96, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .welcome_page .buttonset .button {
   display: inline-block;
   position: relative;
-  height: 22.5px;
-  margin: 0 3%;
+  height: 18px;
+  margin: 0 5.5%;
 }
-/* line 103, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .welcome_page .buttonset .button img {
   height: 100%;
 }
 
-/* line 143, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .timeline_page {
   background: #FFA0B2;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .huge_photo_page {
-  background: white;
+  position: relative;
+  width: 100%;
+  background: #FFA0B2;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-/* line 152, ../sass/style.scss */
-.huge_photo_page .huge_photo {
+/* line 157, ../sass/style.scss */
+.huge_photo_page .handwriting_1 {
   position: absolute;
-  width: 100vw;
+  left: 6%;
+  top: 6%;
+  width: 50%;
+}
+/* line 164, ../sass/style.scss */
+.huge_photo_page .handwriting_2 {
+  position: absolute;
+  left: 6%;
+  top: 30%;
+  width: 60%;
+}
+/* line 171, ../sass/style.scss */
+.huge_photo_page .huge_photo {
+  position: relative;
+  height: 150%;
+  top: -280px;
+  left: 30%;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
+.location_page {
+  position: relative;
+}
+/* line 184, ../sass/style.scss */
 .location_page .ceremony {
   position: relative;
   width: 100%;
   height: 50%;
   background: #FFA0B2;
 }
-/* line 169, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .location_page .ceremony .ceremony_title {
   position: relative;
   display: block;
-  height: 30px;
+  height: 38px;
   left: 8%;
-  top: 25px;
+  top: 20px;
 }
-/* line 176, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .location_page .ceremony .ceremony_info {
   position: relative;
   display: inline-block;
   width: 400px;
   left: 8%;
-  top: 35px;
+  top: 30px;
 }
-/* line 183, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .location_page .ceremony .ceremony_traffic {
   position: relative;
   display: inline-block;
   width: 400px;
   left: 30%;
+  top: -50.53%;
 }
-/* line 192, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .location_page .banquet {
   position: relative;
   width: 100%;
   height: 50%;
   background: white;
 }
-/* line 198, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .location_page .banquet .banquet_title {
   position: relative;
   display: block;
-  height: 30px;
+  height: 38px;
   left: 8%;
-  top: 25px;
+  top: 33px;
 }
-/* line 205, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .location_page .banquet .banquet_info {
   position: relative;
   display: inline-block;
   width: 400px;
   left: 8%;
-  top: 35px;
+  top: 44px;
 }
-/* line 212, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .location_page .banquet .banquet_traffic {
   position: relative;
   display: inline-block;
   width: 400px;
   left: 30%;
+  top: -33.5%;
 }
 
-/* line 223, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .footer {
   position: relative;
   width: 100vw;
   height: 300px;
   background: #FFA0B2;
 }
-/* line 229, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .footer .social_buttonset {
   position: absolute;
   width: 100%;
   top: 210px;
   text-align: center;
 }
-/* line 236, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .footer .social_buttonset .button {
   display: inline-block;
   width: 36px;
 }
-/* line 240, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .footer .social_buttonset .button .social_button {
   width: 100%;
 }
-/* line 247, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 .footer .copyright {
   position: relative;
   height: 18px;
