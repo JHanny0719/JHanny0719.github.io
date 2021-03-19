@@ -215,12 +215,13 @@
 .footer .social_buttonset .button {
   display: inline-block;
   width: 36px;
+  margin-left: 40px;
 }
-/* line 261, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .footer .social_buttonset .button .social_button {
   width: 100%;
 }
-/* line 268, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 .footer .copyright {
   position: relative;
   height: 18px;
