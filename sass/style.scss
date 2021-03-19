@@ -173,7 +173,7 @@ $light_pink: #FFCFD8;
     height: 150%;
     top: -280px;
     left: 30%;
-    
+
   }
 }
 
@@ -244,13 +244,44 @@ $light_pink: #FFCFD8;
 .footer {
   position: relative;
   width: 100vw;
-  height: 300px;
+  // height: 300px;
   background: $pink;
+  text-align: center;
+
+  .countdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+
+    .time_section {
+      position: relative;
+      display: inline-block;
+      width: 15vw;
+      height: 15vw;
+      padding: 3vw;
+      // background: red;
+      text-align: center;
+
+      .time_number {
+        width: 100%;
+        height: 60%;
+        // border: 4px white solid;
+        border-radius: 50%;
+        font-size: 8vw;
+        padding: 20% 0;
+
+      }
+
+      .title {
+        font-size: 24px;
+      }
+    }
+  }
 
   .social_buttonset{
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 210px;
+    margin-top: 50px;
     text-align: center;
 
 
@@ -266,11 +297,12 @@ $light_pink: #FFCFD8;
   }
 
   .copyright{
+    display: block;
     position: relative;
     height: 18px;
-    left:50%;
-    transform: translate(-50%,0);
-    top: 240px;
-
+    left: 50%;
+    transform: translate(-50% ,0);
+    margin-top: 50px;
+    padding-bottom: 20px;
   }
 }
