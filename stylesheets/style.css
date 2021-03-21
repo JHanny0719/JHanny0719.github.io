@@ -108,21 +108,21 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
-/* line 157, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .huge_photo_page .handwriting_1 {
   position: absolute;
   left: 6%;
   top: 6%;
   width: 50%;
 }
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .huge_photo_page .handwriting_2 {
   position: absolute;
   left: 6%;
   top: 30%;
   width: 60%;
 }
-/* line 171, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .huge_photo_page .huge_photo {
   position: relative;
   height: 150%;
@@ -130,18 +130,18 @@
   left: 30%;
 }
 
-/* line 180, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .location_page {
   position: relative;
 }
-/* line 184, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .location_page .ceremony {
   position: relative;
   width: 100%;
   height: 50%;
   background: #FFA0B2;
 }
-/* line 190, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 .location_page .ceremony .ceremony_title {
   position: relative;
   display: block;
@@ -149,7 +149,7 @@
   left: 8%;
   top: 18px;
 }
-/* line 197, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .location_page .ceremony .ceremony_info {
   position: relative;
   display: inline-block;
@@ -157,7 +157,7 @@
   left: 8%;
   top: 30px;
 }
-/* line 204, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .location_page .ceremony .ceremony_traffic {
   position: relative;
   display: inline-block;
@@ -165,14 +165,14 @@
   left: 30%;
   top: -50.53%;
 }
-/* line 213, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .location_page .banquet {
   position: relative;
   width: 100%;
   height: 50%;
   background: white;
 }
-/* line 219, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .location_page .banquet .banquet_title {
   position: relative;
   display: block;
@@ -180,7 +180,7 @@
   left: 8%;
   top: 26px;
 }
-/* line 226, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .location_page .banquet .banquet_info {
   position: relative;
   display: inline-block;
@@ -188,7 +188,7 @@
   left: 8%;
   top: 44px;
 }
-/* line 233, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 .location_page .banquet .banquet_traffic {
   position: relative;
   display: inline-block;
@@ -197,20 +197,20 @@
   top: -30%;
 }
 
-/* line 244, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 .footer {
   position: relative;
   width: 100vw;
   background: #FFA0B2;
   text-align: center;
 }
-/* line 251, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .footer .countdown {
   position: relative;
   display: inline-block;
   color: white;
 }
-/* line 256, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .footer .countdown .time_section {
   position: relative;
   display: inline-block;
@@ -219,7 +219,7 @@
   padding: 3vw;
   text-align: center;
 }
-/* line 265, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .footer .countdown .time_section .time_number {
   width: 100%;
   height: 60%;
@@ -227,28 +227,28 @@
   font-size: 8vw;
   padding: 20% 0;
 }
-/* line 275, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 .footer .countdown .time_section .title {
   font-size: 24px;
 }
-/* line 281, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .footer .social_buttonset {
   position: relative;
   width: 100%;
   margin-top: 93px;
   text-align: center;
 }
-/* line 288, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .footer .social_buttonset .button {
   display: inline-block;
   width: 30px;
   margin-left: 12px;
 }
-/* line 293, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .footer .social_buttonset .button .social_button {
   width: 100%;
 }
-/* line 302, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .footer .copyright {
   display: block;
   position: relative;
