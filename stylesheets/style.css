@@ -223,7 +223,7 @@ audio:hover {
 .timeline_page .image_window {
   position: absolute;
   display: none;
-  top: 16vh;
+  top: 19vh;
   right: 10vw;
 }
 /* line 292, ../sass/style.scss */
