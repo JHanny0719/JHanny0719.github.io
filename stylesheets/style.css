@@ -289,13 +289,13 @@
 /* line 348, ../sass/style.scss */
 .footer .copyright {
   position: relative;
-  height: 18px;
+  width: 80vw;
   left: 50%;
   transform: translate(-50%, 0);
   top: 240px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
   /* line 361, ../sass/style.scss */
   .desktop {
     display: none;
@@ -332,55 +332,117 @@
     margin: 0 2.5%;
   }
 
-  /* line 400, ../sass/style.scss */
+  /* line 399, ../sass/style.scss */
+  .timeline_page {
+    height: 200vh;
+    overflow: hidden;
+  }
+  /* line 403, ../sass/style.scss */
+  .timeline_page .line {
+    display: none;
+  }
+  /* line 407, ../sass/style.scss */
   .timeline_page .time_section {
     display: none;
   }
-  /* line 404, ../sass/style.scss */
+  /* line 411, ../sass/style.scss */
   .timeline_page .image_window {
+    position: fixed;
     width: 100vw;
     right: 0;
-    top: 20vh;
+    top: 8vh;
   }
-  /* line 409, ../sass/style.scss */
+  /* line 417, ../sass/style.scss */
   .timeline_page .image_window .window {
+    position: absolute;
     display: none;
   }
-  /* line 413, ../sass/style.scss */
+  /* line 421, ../sass/style.scss */
+  .timeline_page .image_window .window img {
+    display: block;
+    position: relative;
+  }
+  /* line 427, ../sass/style.scss */
+  .timeline_page .image_window .window_short {
+    margin-top: 10vh;
+  }
+  /* line 431, ../sass/style.scss */
   .timeline_page .image_window .default {
     display: block;
   }
-  /* line 415, ../sass/style.scss */
+  /* line 433, ../sass/style.scss */
   .timeline_page .image_window .default img {
     display: block;
   }
-  /* line 420, ../sass/style.scss */
+  /* line 438, ../sass/style.scss */
   .timeline_page .image_window img {
     margin-left: 0;
     width: 100%;
   }
-  /* line 426, ../sass/style.scss */
+  /* line 445, ../sass/style.scss */
   .timeline_page .image_window .white_bg {
     width: 100vw;
     margin-top: 15vh;
+    height: 40vw;
   }
-  /* line 431, ../sass/style.scss */
+  /* line 451, ../sass/style.scss */
   .timeline_page .image_window .title {
-    position: absolute;
-    top: 36vh;
+    position: relative;
+    top: 5vh;
     left: 21vw;
     font-size: 30px;
     line-height: 40px;
     color: white;
   }
-  /* line 439, ../sass/style.scss */
+  /* line 459, ../sass/style.scss */
   .timeline_page .image_window .title .text {
     font-size: 18px;
     margin-left: 13vw;
   }
 
-  /* line 447, ../sass/style.scss */
+  /* line 467, ../sass/style.scss */
   .location_page {
     display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 476, ../sass/style.scss */
+  .welcome_page .jack_png, .welcome_page .hanny_png {
+    width: 400px;
+    top: -60px;
+    margin-left: -200px;
+  }
+  /* line 483, ../sass/style.scss */
+  .welcome_page .welcome {
+    top: 325px;
+    font-size: 28px;
+  }
+  /* line 488, ../sass/style.scss */
+  .welcome_page .Jack_and_Hanny {
+    top: 362px;
+    font-size: 36px;
+  }
+  /* line 493, ../sass/style.scss */
+  .welcome_page .Wedding_word {
+    top: 410px;
+    font-size: 30px;
+  }
+  /* line 498, ../sass/style.scss */
+  .welcome_page .buttonset {
+    top: 480px;
+  }
+  /* line 500, ../sass/style.scss */
+  .welcome_page .buttonset .button {
+    height: 16.5px;
+    margin: 0 2%;
+  }
+
+  /* line 507, ../sass/style.scss */
+  .timeline_page {
+    height: 250vh;
+  }
+  /* line 510, ../sass/style.scss */
+  .timeline_page .image_window {
+    top: 0vh;
   }
 }
