@@ -40,15 +40,15 @@ audio {
   // width: 500px;
   // height: 500px;
   left: 0;
-  top: 0;
+  top: -312.5px;
   z-index: 999;
-  width: 20vw;
-  left: 40vw;
+  width: 31vw;
+  left: 35vw;
   position: relative;
   // margin-top: 50px;
   // background: red;
-  opacity: 0.1;
-  transition-duration: 1s;
+  opacity: 0;
+  transition-duration: 0.5s;
   cursor: pointer;
 
   &:hover {
@@ -130,7 +130,7 @@ audio {
     position: relative;
     width: 100%;
     height: 170px;
-    margin-top: -60px;
+    margin-top: -85px;
     // top: 608px;
     font-family: playball, Comic Sans MS;
     // 沒有Playball這個字體
@@ -145,7 +145,7 @@ audio {
   .buttonset{
     position: relative;
     width: 100%;
-    margin-top: -60px;
+    margin-top: -85px;
     // top: 705px;
     text-align: center;
     // 這裡的top是對應誰的啊幹？為什麼不是對整個welcome_page？
@@ -229,7 +229,7 @@ audio {
 
       &:hover {
         .title {
-          opacity: 1;
+          opacity: 0.5;
         }
         .polygon {
           display: block;
@@ -257,7 +257,7 @@ audio {
         vertical-align: top;
       }
       .title {
-        opacity: 0.5;
+        opacity: 0;
         display: inline-block;
         color: white;
         // font-size: 24px;
@@ -337,7 +337,7 @@ audio {
   .handwriting_2{
     position: absolute;
     left: 8%;
-    top: 73%;
+    top: 70%;
     width: 52%;
   }
 
