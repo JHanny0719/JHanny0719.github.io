@@ -271,8 +271,8 @@ audio:hover {
 /* line 337, ../sass/style.scss */
 .huge_photo_page .handwriting_2 {
   position: absolute;
-  left: 8%;
-  top: 70%;
+  left: 6.5%;
+  top: 71.5%;
   width: 52%;
 }
 /* line 344, ../sass/style.scss */
@@ -314,7 +314,7 @@ audio:hover {
   left: calc( 640px + 8% );
   top: 144px;
   width: 500px;
-  height: 311px;
+  height: 280px;
 }
 /* line 386, ../sass/style.scss */
 .location_page .ceremony {
@@ -487,7 +487,7 @@ audio:hover {
   .huge_photo_page .handwriting_1 {
     left: 13%;
     top: 18%;
-    width: 68%;
+    width: 70%;
   }
   /* line 579, ../sass/style.scss */
   .huge_photo_page .handwriting_2 {
